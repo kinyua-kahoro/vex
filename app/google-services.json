@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "179529921883",
+    "project_id": "vex-learning",
+    "storage_bucket": "vex-learning.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179529921883:android:b50a64618f02828fb6567e",
+        "android_client_info": {
+          "package_name": "com.vex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7jEwPEQ3u7iGap_hrWYIB0jLf5t1Ml00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

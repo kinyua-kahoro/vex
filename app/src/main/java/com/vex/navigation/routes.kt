@@ -1,0 +1,16 @@
+package com.vex.navigation
+
+const val ROUTE_UNITLIST= "unitlist"
+const val ROUTE_LOGIN = "login"
+const val ROUTE_REGISTER = "register"
+const val ROUTE_UNIT_DETAIL = "unitDetail/{unitId}"
+const val ROUTE_UNIT_EDIT = "unitEdit/{unitId}"
+const val ROUTE_TOPIC_EDIT= "topicEdit/{unitId}/{topicId}"
+const val ROUTE_TOPIC_LIST= "topicList/{unitId}"
+const val ROUTE_ASSIGNMENT_LIST = "assignmentList/{unitId}/{topicId}"
+const val ROUTE_ASSIGNMENT_EDIT = "assignmentEdit/{unitId}/{topicId}/{assignmentId}"
+const val ROUTE_PROFILE_CHECK = "profileCheck"
+const val ROUTE_PROFILE_SETUP = "profileSetup"
+const val ROUTE_PROFILE_SCREEN = "profile"
+const val ROUTE_DASHBOARD = "dashboard"
+const val ROUTE_PROFILE_EDIT = "profileEdit"
