@@ -54,13 +54,8 @@ class DailyReminderWorker(
             )
             manager.createNotificationChannel(channel)
         }
-        val largeIcon = BitmapFactory.decodeResource(
-            applicationContext.resources,
-            R.mipmap.ic_launcher // or R.mipmap.ic_launcher_round if you use the round one
-        )
         val notification = NotificationCompat.Builder(applicationContext, channelId)
             .setSmallIcon(R.drawable.ic_notification)
-            .setLargeIcon(largeIcon)
             .setContentTitle(title)
             .setContentText(message)
             .setStyle(NotificationCompat.BigTextStyle().bigText(message))

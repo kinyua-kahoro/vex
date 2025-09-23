@@ -39,13 +39,8 @@ fun Context.sendNotification(id: Int, channelId: String, title: String, message:
         val channel = NotificationChannel(channelId, title, NotificationManager.IMPORTANCE_DEFAULT)
         manager.createNotificationChannel(channel)
     }
-    val largeIcon = BitmapFactory.decodeResource(
-        applicationContext.resources,
-        R.mipmap.ic_launcher // or R.mipmap.ic_launcher_round if you use the round one
-    )
     val notification = NotificationCompat.Builder(this, channelId)
         .setSmallIcon(R.drawable.ic_notification)
-        .setLargeIcon(largeIcon)
         .setContentTitle(title)
         .setContentText(message)
         .setStyle(NotificationCompat.BigTextStyle().bigText(message))
