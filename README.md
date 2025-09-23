@@ -56,3 +56,45 @@ Built with **Kotlin**, **Jetpack Compose**, and **Firebase**, Vex helps you stay
     }
   }
 }
+```
+### Build & Run
+1. Clone the repository:
+```
+git clone https://github.com/<your-username>/vex.git
+cd vex
+```
+2. Open the project in Android Studio.
+3. Sync Gradle and run on an emulator or physical device.
+
+---
+
+## 🗂️ Project Structure
+```
+app/
+ ├─ src/main/java/com/vex/
+ │   ├─ ui/              # Jetpack Compose UI screens
+ │   ├─ data/            # Repositories & models
+ │   ├─ workers/         # WorkManager background workers
+ │  
+ └─ src/main/res/        # Resources (drawables, layouts, icons)
+```
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!   
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌟 Acknowledgements
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Firebase](https://firebase.google.com/)
+- [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
+
+---
